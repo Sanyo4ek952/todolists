@@ -10,7 +10,7 @@ export const Path = {
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "https://sanyo4ek952.github.io/todolists",
     element: <App />,
     children: [
       {
