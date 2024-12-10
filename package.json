@@ -1,6 +1,7 @@
 {
   "name": "1-lesson",
   "homepage": "https://sanyo4ek952.github.io/todolists",
+  "proxy": "https://social-network.samuraijs.com/api/1.1/",
   "jest": {
     "moduleNameMapper": {
       "axios": "axios/dist/node/axios.cjs"
@@ -37,7 +38,7 @@
     "web-vitals": "^3.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
